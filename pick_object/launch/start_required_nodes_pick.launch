@@ -1,0 +1,6 @@
+<launch>
+	<node pkg="pick_object" name="move_server" output="screen" type="move_server.py"/>
+	<node pkg="pick_object" name="pick_server" output="screen" type="pick_server.py"/>
+	<node pkg="pick_object" name="place_server" output="screen" type="place_server.py"/>
+	<node pkg="pick_object" name="tags_node" output="screen" type="tags_node.py"/>
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+	<arg name="xp"/>
+	<arg name="yp"/>
+	<arg name="wz"/>
+	<arg name="ww"/>
+
+	<node pkg="intro_navigation" name="navigation_client" type="navigation_client" output="screen" args="$(arg xp) $(arg yp) $(arg wz) $(arg ww)"/>
+</launch>

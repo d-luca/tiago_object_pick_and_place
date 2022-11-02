@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="intro_navigation" name="cloud_point_scanner" type="scannerCloudPointNode"/>
+	<node pkg="intro_navigation" name="obstacle_center" type="obstaclesPositionNode.py"/>
+	<node pkg="intro_navigation" name="navigation_server" type="navigation_server"/>
+</launch>

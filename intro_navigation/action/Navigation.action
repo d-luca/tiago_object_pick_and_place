@@ -1,0 +1,12 @@
+#goal definition
+float64 xp
+float64 yp
+float64 wz
+float64 ww
+---
+#result definition
+geometry_msgs/Point32[] points
+float32[] radius
+---
+#feedback
+string f

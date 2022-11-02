@@ -1,0 +1,9 @@
+#goal definition
+int8 phase
+int8 target_id
+---
+#result definition
+string r
+---
+#feedback
+string f

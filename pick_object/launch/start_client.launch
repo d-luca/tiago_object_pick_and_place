@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="pick_object" name="main_client" output="screen" type="main_client.py"/>
+</launch>
