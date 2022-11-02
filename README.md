@@ -1,4 +1,4 @@
-# tiago_object_picking
+# tiago_object_pick_and_place
 Small project for the Intelligent Robotics course (MSc Universita' degli studi di Padova).
 The solution made was capable of:
 - moving the robot in a position defined by a human-node that specify which, among three
